@@ -1,5 +1,6 @@
-import { Bot, User } from "lucide-react";
+import { User } from "lucide-react";
 import { cn } from "@/lib/utils";
+import botLogo from "@/assets/bot-logo.png";
 
 interface ChatMessageProps {
   role: "user" | "assistant";
@@ -24,7 +25,7 @@ export const ChatMessage = ({ role, content }: ChatMessageProps) => {
             : "bg-secondary text-secondary-foreground"
         )}
       >
-        {isUser ? <User className="h-4 w-4" /> : <Bot className="h-4 w-4" />}
+        {isUser ? <User className="h-4 w-4" /> : <img src={botLogo} alt="AI Assistant" className="h-5 w-5" />}
       </div>
       <div
         className={cn(
