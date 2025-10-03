@@ -1,7 +1,8 @@
-import { Bot, Sparkles } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import { ChatMessage } from "@/components/ChatMessage";
 import { ChatInput } from "@/components/ChatInput";
 import { useChat } from "@/hooks/useChat";
+import botLogo from "@/assets/bot-logo.png";
 
 const Index = () => {
   const { messages, isLoading, sendMessage, messagesEndRef } = useChat();
@@ -13,7 +14,7 @@ const Index = () => {
         <div className="container mx-auto flex items-center justify-between px-4 py-4">
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-accent">
-              <Bot className="h-6 w-6 text-primary-foreground" />
+              <img src={botLogo} alt="AI Assistant" className="h-6 w-6" />
             </div>
             <div>
               <h1 className="text-xl font-bold">AI Assistant</h1>
@@ -34,7 +35,7 @@ const Index = () => {
             <div className="flex h-full items-center justify-center p-8">
               <div className="text-center">
                 <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-br from-primary to-accent">
-                  <Bot className="h-10 w-10 text-primary-foreground" />
+                  <img src={botLogo} alt="AI Assistant" className="h-12 w-12" />
                 </div>
                 <h2 className="mb-2 text-2xl font-bold">Welcome to AI Assistant</h2>
                 <p className="text-muted-foreground">
@@ -50,7 +51,7 @@ const Index = () => {
               {isLoading && (
                 <div className="flex gap-3 p-4">
                   <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-secondary">
-                    <Bot className="h-4 w-4 animate-pulse" />
+                    <img src={botLogo} alt="AI Assistant" className="h-5 w-5 animate-pulse" />
                   </div>
                   <div className="flex items-center gap-1">
                     <div className="h-2 w-2 animate-bounce rounded-full bg-primary [animation-delay:-0.3s]"></div>
