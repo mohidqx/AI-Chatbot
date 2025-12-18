@@ -268,7 +268,7 @@ This project is open source. See the repository for license details.
 
 
 ## Footer <footer>
-- Repository: [gemini-visionary-chat](https://github.com/mohidqx/AI-Chatbot)
+- Repository: [AI-Chatbot](https://github.com/mohidqx/AI-Chatbot)
 - Author: [mohidqx](https://github.com/mohidqx)
 
 ⭐️ Feel free to fork, like, and star the repository! If you encounter any issues, please open an issue.
