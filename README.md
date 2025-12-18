@@ -1,4 +1,4 @@
-# Gemini Visionary Chat 🤖
+# AI-Chatbot Powered by GeminiAI 🤖
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FF4980)]()
@@ -63,8 +63,8 @@ This project provides a user interface for interacting with the Gemini AI model,
 ## Installation 🛠️
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/mohidqx/gemini-visionary-chat
-   cd gemini-visionary-chat
+   git clone https://github.com/mohidqx/AI-Chatbot
+   cd AI-Chatbot
    ```
 
 2. **Install dependencies:**
@@ -268,7 +268,7 @@ This project is open source. See the repository for license details.
 
 
 ## Footer <footer>
-- Repository: [gemini-visionary-chat](https://github.com/mohidqx/gemini-visionary-chat)
+- Repository: [gemini-visionary-chat](https://github.com/mohidqx/AI-Chatbot)
 - Author: [mohidqx](https://github.com/mohidqx)
 
 ⭐️ Feel free to fork, like, and star the repository! If you encounter any issues, please open an issue.
